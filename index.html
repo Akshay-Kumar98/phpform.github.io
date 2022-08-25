@@ -9,26 +9,37 @@
    
 </head>
 <body>
-    <?php
-           include("index.php");
-    ?>
+  
 
     <div class="container">
-        <form method="post" action="<?php echo$_SERVER['PHP_SELF']; ?>" autocomplete="off"
-            class="formbox">
-<label for="email">Email:</label><br>
+        
+        <form method="post" action="index.php" autocomplete="off" class="formbox">
+<label for="email">Email:</label>
+            <br>
+            
 <input type="email" name="email" id="email" placeholder="Enter your email here" required>
+            
 <br>
-<label for="subject">Subject:</label><br>
+            
+<label for="subject">Subject:</label>
+            <br>
+            
 <input type="text" name="subject" id="subject" placeholder="Enter your suject here" required>
+            
 <br>
-<label for="message">Message:</label><br>
+            
+<label for="message">Message:</label>
+            <br>
+            
 <textarea name="message" id="message" placeholder="Enter your Message here"></textarea>
 
 <input type="submit" value="submit" class="submit">
 
         </form>
+        
     </div>
     
 </body>
 </html>
+
+
