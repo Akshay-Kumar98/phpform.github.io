@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #D61C4E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.formbox{
+    width:400px;
+    height: 400px;
+    background-color: #FEDB39 ;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px #FEDB39 ;
+}
+
+.formbox label{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    display: inline-block;
+    padding: 0 0 0 50px;
+    margin-top: 10px;
+}
+
+.formbox input{
+    width: 80%;
+    height: 40px;
+    display: inline-block;
+    border-radius: 15px;
+    margin: 10px 0 10px 40px;
+    outline: none;
+    border: 1px solid #293462;
+    font-size: 13px;
+    padding-left: 10px;
+
+    
+}
+
+.formbox textarea{
+    width: 80%;
+    height: 100px;
+    display: inline-block;
+    border-radius: 15px;
+    margin: 10px 0 10px 40px;
+    outline: none;
+    border: 1px solid #293462;
+    font-size: 13px;
+    padding: 10px  0 0 10px;
+    
+}
+
+
+.formbox .submit{
+    padding: 10px 50px;
+    letter-spacing: 2px;
+    color: white;
+    background-color: #293462;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
