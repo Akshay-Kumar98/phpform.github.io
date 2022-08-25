@@ -1,5 +1,5 @@
 <?php
-if (isset ( $_POST['submit'])){
+
 
     $to = " theakshaykumar98@gmail.com";
     $subject = $_POST['subject'];
@@ -10,7 +10,8 @@ if (isset ( $_POST['submit'])){
 
     $mail( $to, $subject, $message, $headers );
 
-    echo "Mail Sent!";
+    echo "Mail Sent! Thanks for choosing Us!";
 
-}
 ?>
+
+
